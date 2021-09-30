@@ -17,7 +17,7 @@ int main(void) {
     minutes = abs(minutes);
     seconds = abs(seconds);
 
-    if( (minutes > 0 && minutes < 60) || seconds < 60 && seconds > 0) {
+    if( (minutes > 0 && minutes < 60) || (seconds < 60 && seconds > 0) ) {
         do {
         system("cls");
 
